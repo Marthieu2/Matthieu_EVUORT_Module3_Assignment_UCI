@@ -1,4 +1,4 @@
-# Start of our Github apprenticeship
+# Module 2 assignment
 Here is my anime list for my second assignment.
 For more details : [module 2 assignment](https://uciunex.instructure.com/courses/16458/assignments/200843?module_item_id=716579).
 
