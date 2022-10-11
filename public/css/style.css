@@ -1,0 +1,62 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+Main {
+  border: #140a00 2px solid;
+  background-color: #463328;
+  align-self: center;
+  border-radius: 20px;
+  max-width: 1200px;
+  padding: 0 50px 20px 50px;
+  margin: 100px 275px;
+}
+
+.button{
+  background-color:  #794628;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid #794628;
+  font-size: 14px;
+}
+
+.button:hover{
+  background-color: #422818;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: solid #422818;
+  font-size: 14px;
+}
+
+#containerAnime {
+  background-color: #422818;
+  padding: 1px 20px;
+  border-radius: 6px;
+  margin: 25px 0;
+}
+
+ @media only screen and (min-width: 300px) and (max-width: 600px) { 
+    #containerAnime {
+    width: 40%;
+    margin:6% 16%;
+  }
+}
+
+/* 2. For Tablet (Medium Screen) */
+@media only screen and (min-width:601px) and (max-width:900px) {
+  Main {
+      width: 50%;
+      margin:6% 16%;
+  }
+}
+
+/* 3. For Desktop (Normal Screen) */
+@media only screen and (min-width: 901px) {
+   Main {
+      width: 60%;
+      margin:6% 16%;
+  }
+}
